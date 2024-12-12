@@ -25,6 +25,7 @@ Cette application permet de certifier la date d'arrivée des produits au sein d'
 Avant de pouvoir utiliser l'application, vous devez avoir les éléments suivants installés sur votre machine :
 
 1. **Node.js** : [Télécharger et installer Node.js](https://nodejs.org/)
+1. **Truffles** : ```bash npm install -g truffle
 2. **Ganache** : [Télécharger et installer Ganache](https://www.trufflesuite.com/ganache)
 3. **MetaMask** : [Installer l'extension MetaMask pour votre navigateur](https://metamask.io/)
 
@@ -35,5 +36,38 @@ Avant de pouvoir utiliser l'application, vous devez avoir les éléments suivant
    Clonez ce dépôt sur votre machine locale :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-depot.git
-   cd nom-du-depot
+   git clone  https://github.com/GNUITOdebora/product-traceability.git
+   cd product-traceability
+
+2. **Installer les dépendances** 
+    ```bash
+    npm install
+
+3. **Lancer l'application React**
+    ```bash
+       npm start
+4 **Utilisation**
+Pour utiliser l'application, suivez ces étapes :
+
+* Ouvrez votre navigateur et accédez à http://localhost:3000.
+* Ouvrez MetaMask et connectez-vous avec un compte Ethereum.
+* Sélectionnez l'un des comptes générés par Ganache pour interagir avec l'application.
+* Une fois l'application ouverte, vous pourrez voir une liste de produits enregistrés dans la blockchain.
+* Vous pouvez ajouter de nouveaux produits via le formulaire en remplissant les informations requises (nom, catégorie, description).
+
+## Présentation du Projet
+
+1. **Ajouter un produit**
+Il suiffit de remplir le champs indiqués
+![texte alternatif](src/images/ajouter produits.png)
+2. **Liste des produits avec leur attribut**
+![texte alternatif](src/images/liste produit 1.png)
+![texte alternatif](src/images/liste produit 2.png)
+![texte alternatif](src/images/liste produit 3.png)
+
+
+
+
+
+    
+
