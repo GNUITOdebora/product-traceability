@@ -25,7 +25,9 @@ Cette application permet de certifier la date d'arrivée des produits au sein d'
 Avant de pouvoir utiliser l'application, vous devez avoir les éléments suivants installés sur votre machine :
 
 1. **Node.js** : [Télécharger et installer Node.js](https://nodejs.org/)
-1. **Truffles** : ```bash npm install -g truffle
+1. **Truffles** :
+     ```bash 
+        npm install -g truffle
 2. **Ganache** : [Télécharger et installer Ganache](https://www.trufflesuite.com/ganache)
 3. **MetaMask** : [Installer l'extension MetaMask pour votre navigateur](https://metamask.io/)
 
@@ -42,11 +44,14 @@ Avant de pouvoir utiliser l'application, vous devez avoir les éléments suivant
 2. **Installer les dépendances** 
     ```bash
     npm install
-
-3. **Lancer l'application React**
+3. **Déployer les contrats intelligents avec Truffle**
+   ```bash
+      truffle compile
+      truffle migrate 
+4. **Lancer l'application React**
     ```bash
        npm start
-4 **Utilisation**
+5 **Utilisation**
 Pour utiliser l'application, suivez ces étapes :
 
 * Ouvrez votre navigateur et accédez à http://localhost:3000.
@@ -57,13 +62,16 @@ Pour utiliser l'application, suivez ces étapes :
 
 ## Présentation du Projet
 
-1. **Ajouter un produit**
-Il suiffit de remplir le champs indiqués
-![texte alternatif](src/images/ajouter produits.png)
-2. **Liste des produits avec leur attribut**
-![texte alternatif](src/images/liste produit 1.png)
-![texte alternatif](src/images/liste produit 2.png)
-![texte alternatif](src/images/liste produit 3.png)
+## 1. **Ajouter un produit**
+Ajouter un produit Il suiffit de remplir le champs indiqués
+
+![Ajouter un produit](src/images/ajouter produits.png)
+
+## 2. **Liste des produits avec leurs attributs**
+
+![Liste des produits 1](src/images/liste produit 1.png)
+![Liste des produits 2](src/images/liste produit 2.png)
+![Liste des produits 3](src/images/liste produit 3.png)
 
 
 
