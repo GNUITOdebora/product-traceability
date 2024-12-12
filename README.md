@@ -51,7 +51,8 @@ Avant de pouvoir utiliser l'application, vous devez avoir les éléments suivant
 4. **Lancer l'application React**
     ```bash
        npm start
-5 **Utilisation**
+## Utilisation
+
 Pour utiliser l'application, suivez ces étapes :
 
 * Ouvrez votre navigateur et accédez à http://localhost:3000.
@@ -62,16 +63,19 @@ Pour utiliser l'application, suivez ces étapes :
 
 ## Présentation du Projet
 
-## 1. **Ajouter un produit**
+1. **Ajouter un produit**
 Ajouter un produit Il suiffit de remplir le champs indiqués
 
-![Ajouter un produit](src/images/ajouter produits.png)
+![Ajouter un produit](images/ajouter_produits.png)
 
-## 2. **Liste des produits avec leurs attributs**
 
-![Liste des produits 1](src/images/liste produit 1.png)
-![Liste des produits 2](src/images/liste produit 2.png)
-![Liste des produits 3](src/images/liste produit 3.png)
+2. **Liste des produits avec leurs attributs**
+
+![Liste des produits 1](images/liste_produit1.png)
+
+![Liste des produits 2](images/liste_produit2.png)
+
+![Liste des produits 3](images/liste_produit3.png)
 
 
 
