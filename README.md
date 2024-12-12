@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Application de Traçabilité des Produits
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cette application permet de certifier la date d'arrivée des produits au sein d'une usine, en utilisant la technologie de la blockchain pour enregistrer les produits. Chaque produit est associé à un numéro unique qui s'incrémente à chaque ajout, et contient des informations supplémentaires telles que son nom, sa catégorie et une description. Le tout est enregistré dans la blockchain via **Ganache**, avec une interface utilisateur construite en **React**.
 
-## Available Scripts
+## Technologies Utilisées
 
-In the project directory, you can run:
+- **Ganache** : Un simulateur de blockchain pour développer des applications Ethereum.
+- **React** : Une bibliothèque JavaScript pour construire l'interface utilisateur.
+- **Truffle** : Un framework pour le développement de contrats intelligents.
+- **MetaMask** : Une extension de navigateur qui sert de porte-monnaie pour interagir avec la blockchain Ethereum.
 
-### `npm start`
+## Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Enregistrement des produits dans la blockchain.
+- Chaque produit a un numéro unique qui s'incrémente automatiquement lors de l'ajout d'un nouveau produit.
+- Enregistrement des informations suivantes pour chaque produit :
+  - Nom
+  - Catégorie
+  - Description
+  - Date d'enregistrement (automatiquement certifiée dans la blockchain)
+- Interface simple en React pour interagir avec les utilisateurs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prérequis
 
-### `npm test`
+Avant de pouvoir utiliser l'application, vous devez avoir les éléments suivants installés sur votre machine :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Node.js** : [Télécharger et installer Node.js](https://nodejs.org/)
+2. **Ganache** : [Télécharger et installer Ganache](https://www.trufflesuite.com/ganache)
+3. **MetaMask** : [Installer l'extension MetaMask pour votre navigateur](https://metamask.io/)
 
-### `npm run build`
+## Installation et Configuration
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Cloner le projet**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Clonez ce dépôt sur votre machine locale :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/votre-utilisateur/nom-du-depot.git
+   cd nom-du-depot
